@@ -1,9 +1,10 @@
 # search in marketolace on "github-action-tester"
 on:
-  # Triggers the workflow on pull request events but only for the production branch
+# Triggers the workflow on pull request events but only for the production branch
   push:
-  name: Push
-  branches: [ production ]
+    branches:
+    - production
+name: Push Event
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
