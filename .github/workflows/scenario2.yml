@@ -20,5 +20,3 @@ jobs:
     # Runs a single command using the runners shell
     - name: Test
       uses: skx/github-action-tester@master
-      with:
-       script: .github/my-script-tests.sh
