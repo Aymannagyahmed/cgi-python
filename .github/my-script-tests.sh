@@ -8,7 +8,7 @@
 MAINDIR="/github/workspace"
 #MAINDIR="."
 #Sure that the script has x permission
-chmod a+wrx ${MAINDIR}/sum.sh
+chmod a+wrx sum.sh
 if [ ! -f ${MAINDIR}/sum.sh ]
 then
 		exit 2
